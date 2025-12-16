@@ -1,0 +1,229 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.main {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("./img/IN-en-20251201-TRIFECTA-perspective_c7623e8e-c406-43d2-9d9a-0140ce19ac84_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.layer {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.nav {
+  position: relative;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.select {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 1px solid #555;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.button {
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.red {
+  background: #e50914;
+  color: #fff;
+  padding: 8px 18px;
+}
+
+.big {
+  font-size: 18px;
+  padding: 12px 24px;
+}
+
+.center {
+  position: relative;
+  max-width: 800px;
+  margin: 140px auto 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.small {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.input {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  min-width: 260px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  z-index: 2;
+}
+
+.box {
+  position: relative;
+  z-index: 2;
+  width: 350px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 40px 35px;
+  border-radius: 8px;
+}
+
+.title2 {
+  margin-bottom: 20px;
+}
+
+.full {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.button.full {
+  padding: 12px;
+}
+
+.dark {
+  background: #333;
+  color: #fff;
+}
+
+.or {
+  text-align: center;
+  margin-top: 14px;
+  opacity: 0.8;
+}
+
+.link {
+  color: #fff;
+  font-size: 14px;
+}
+
+.center-text {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.small2 {
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.tiny {
+  margin-top: 14px;
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+
+  .nav {
+    padding: 16px 20px;
+  }
+
+  .center {
+    margin-top: 120px;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .big {
+    width: 100%;
+  }
+
+  .box {
+    width: 90%;
+    padding: 25px 20px;
+  }
+
+  .top {
+    left: 20px;
+  }
+}
